@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <style>
+       body{
+           background-image: url('ss.jpg');
+           background-position: center;
+           background-size: cover;
+           height: 100vh;
+       }
+       #bx{
+           border: black 2px solid;
+           width: 700px;
+           height: 800px;
+           background-image: url('tt.jpg');
+           padding: 0;
+           
+       }
+       #tt{
+           font-size: 60px;
+           color:black;
+           word-spacing: 40px;
+           text-align: center;
+           border: black 2px solid;
+       }
+       #text{
+        border: black 2px solid;
+       }
+       #butn{
+           margin-top: 400px;
+           margin-left: 100px;
+           display: flex;
+           flex-wrap: nowrap;
+
+       }
+       #tv{
+        font-size: 40px;
+           color:black;
+           word-spacing: 40px;
+           text-align: center;
+           border: black 2px solid;
+           margin-top: 40px;
+       }
+      
+   
+   </style> <title>Age in Days</title>
+</head>
+<body>
+    <div class="container" id="bx">
+        <div id="text">
+    <p id="tt">Your age in days</p>
+        
+        <div id="butn">
+            <button type="button" class="btn btn-primary" style="height: 100px;width: 200px;" onclick="age()">
+           Click Me
+            </button>
+            <button type="button" class="btn btn-danger" style="height: 100px;width: 200px; margin-left: 80px;" onclick="reset()">
+            Reset
+            </button>
+            </div>
+        </div><br/><br/><br/>
+        
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
